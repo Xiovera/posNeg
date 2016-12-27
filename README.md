@@ -2,11 +2,13 @@
 Ejercicio N° 6 "PosNeg" con Js
 
 Inicio: pos Neg
+
 ## Entrada:
 - a
 - b
 - negative
-## Proceso
+
+## Proceso;
 - Obtener a
 - Obtener b
 - Si (a<0)y(b<0)
