@@ -1,5 +1,5 @@
 # posNeg
-Ejercicio N° 6 "PosNeg" con Js
+Ejercicio N° 7 "PosNeg" con Js
 
 Inicio: pos Neg
 
@@ -8,7 +8,7 @@ Inicio: pos Neg
 - b
 - negative
 
-## Proceso;
+## Proceso:
 - Obtener a
 - Obtener b
 - Si (a<0)y(b<0)
