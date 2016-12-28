@@ -1,11 +1,15 @@
 function calcular()
 {	
-	var number1 = document.getElementById("number1").value;
-	var diff = document.getElementById("diff");
+	var a = document.getElementById("a").value;
+	var b = document.getElementById("b").value;
 
-	if(number1>21)
+	var salida = document.getElementById("salida");
 
-
+	if(a>0 && b>0){
+		salida.innerHTML="0";
+	}else{
+		salida.innerHTML="1"
+	}
 }
 
 

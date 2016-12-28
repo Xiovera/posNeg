@@ -12,14 +12,15 @@ Inicio: pos Neg
 - Obtener a
 - Obtener b
 - Si (a<0)y(b<0)
-	mostrar 1
+	- mostrar 1
   	sino
-	mostrar 0
-  sino
-      si (a<o)ó(b<0)
-	mostrar 1
-	sino
-	mostrar 0
-      fin si
+	- mostrar 0
+  - sino
+      - si (a<o)ó(b<0)
+			- mostrar 1
+	  - sino
+			- mostrar 0
+  - fin si
 - fin si
+
 *Fin*

@@ -14,41 +14,30 @@
 <div class="posNeg-fondo">
 	<div class="oscurito">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<h1 class="text-center well">Averigua si </h1>
-					<hr>
-				</div>
-			</div>
+			<h1 class="well text-center">Mostrar si son negativos</h1>
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">
-					 	<label class="well" for="number1">Ingresa un número entero:</label>
-					 	<input type="email" class="form-control" id="number1" placeholder="0">
+					 	<label class="well" for=" ">Ingresa un número:</label>
+					 	<input type="text" class="form-control" id="a">
 					</div>
-					<hr>
-					<div class="form-group">
-						<label class="well" for="numberB">Ingresa otro número:</label>
-					 	<input type="email" class="form-control" id="numberB" placeholder="0">
-					</div>
-				</div>
+				</div>				
 				<div class="col-md-6">
 					<div class="form-group">
-						
+						<label class="well" for=" ">Ingresa otro número:</label>
+					 	<input type="text" class="form-control" id="b">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
-					<button onclick="calcular()" class="center-block btn btn-info">Calcular</button>
-					<div>
-						<h2 class="center-block" role="alert" id="diff"></h2>				
-					</div>
-				</div>					
+					<p id="salida">-</p>
+						<button onclick="calcular()" class="center-block btn btn-info">Calcular</button>				
+					</div>					
 				</div>
 			</div>
-		</div>		
+			<a class="btn btn-warning well" href="https://github.com/Xiovera/posNeg">link repo </a>
+		</div>				
 	</div>
-	<a class="well" href="https://github.com/Xiovera/posNeg">link repo </a>
 </div>
 </body>
 <script src="Js/main.js"></script>
